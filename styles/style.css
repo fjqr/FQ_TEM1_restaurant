@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+    min-height: 100vh;;
+}
+
+.nav-color{
+    /* background-color:  #D3D0D8; */
+    background-color: #EDEFED;
+}
+
+.tb {
+    top: 8rem;
+    left: 1rem;
+} 
+
+.tb2 {
+    top: 88rem;
+    left: 31rem;
+    text-align: right;
+} 
+
+.tb  p:nth-child(1) ,h1, .card-font, .tb2 p{
+    font-family: 'Viga', sans-serif;
+} 
+
+.card-size{
+    height: 100%;
+}
+
+.bg-card-1{
+/* background-color: #7D6553;
+border-color: #7D6553; */
+background-color: #8A8A8A;
+border-color:#8A8A8A;
+}
+
+.bg-card-2{
+background-color: #979793;
+border-color: #979793;
+/* background-color: #DA1E0A;
+border-color: #DA1E0A; */
+}
+
+
+p,h5{
+     font-family: 'Quicksand', sans-serif;
+}
+
+.bc{
+    background-color: rgba(125, 101, 83, .3);
+    border-radius:  6rem;
+}
+
+.bc2{
+    background-color: rgba(125, 101, 83, .3);
+    border-radius:  2rem;
+}
+
+.red{
+    background-color: #DA1E0A;
+}
+.brown{
+    /* background-color: #CCBFB4; */
+    background-color: #979796;
+}
+
+.brown2{
+    /* background-color: #422F2C;
+    border-color: #422F2C; */
+    background-color: #426F42;
+}
+
+.mask{
+    -webkit-mask-image: url(../assets/círculo_negro.png);
+    -webkit-mask-size: 60%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    mask-size: 60%;
+    mask-repeat: no-repeat;
+    mask-image: url(../assets/círculo_negro.png);
+} 
+
+.round{
+    position: absolute;
+    right: 2rem;
+    top: 170rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 8rem;
+}
+
+.round2{
+    position: absolute;
+    right: 50rem;
+    top: 210rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 8rem;
+    border:solid  1rem #DA1E0A;
+}
+
+.size-card{
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: 7rem 6.5rem;
+    padding: 0;
+}
+
+.obj1{
+    position: absolute;
+    right: 3rem;
+    bottom: -216rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 6rem;
+    border: solid .8rem #CCBFB4;
+    z-index: 2;
+}
+
+.obj2{
+    position: absolute;
+    left: 8rem;
+    bottom: -186rem; 
+    height: 5rem;
+    width: 5rem;
+    border-radius: 6rem;
+}
+
+.content{
+    min-height: 1rem;
+    max-width: 100%;
+}
+
+.absolute-container {
+    position:absolute;
+    left: 50%;
+    bottom: -296rem;
+    max-width: 45%;
+    min-height: 74%;
+}
+
+.element-rounded{
+    position: absolute;
+    left: 8rem;
+
+    bottom: 20rem;  
+    height: 5rem;
+    width: 5rem;
+    border-radius: 6rem;
+}
+
+.img{
+    background-image: url(../assets/spaghetti-g8e1331391_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.img2{
+    background-image: url(../assets/spaghetti-ge696a620c_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+
+@media (min-width:300px) {
+    .brown2 {
+        /* background-color: #422F2C; */
+        background-color: #426F42;
+        
+    }
+    .element-rounded, .obj1, .obj2, .round, .round2{
+        display: none;
+    }
+    
+
+
+    .size-card{
+        max-height: fit-content;
+        max-width: fit-content;
+        margin: 2rem;
+        padding: 0;
+    }
+}
+
